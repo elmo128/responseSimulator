@@ -33,7 +33,7 @@ jobs:
       run: dotnet test --no-build --verbosity normal
 
     - name: Package
-      run: |
+      run:
        7z a ResponseSimulator_binaries.zip 
        D:/a/responseSimulator/responseSimulator/License.txt 
        D:/a/responseSimulator/responseSimulator/Readme.md 
